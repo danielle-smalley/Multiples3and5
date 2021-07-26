@@ -20,6 +20,21 @@ namespace Multiples3_5
                 Remember to commit changes to the repository. Submit your repo url to this assignment. 
              */
 
+            //max number
+            //int maxNumber = 999; //needs to be below 1000
+            //int mult3 = maxNumber / 3; //multiples of 3
+            //int mult5 = maxNumber / 5; //multiples of 5
+
+            int sum = 0;
+            for (int i = 1; i < 1000; i++) //using a for loop starting with 1 to 1000 and incrementing to count
+            {
+                if (i % 3 == 0 || i % 5 == 0)
+                {
+                    sum += i;
+                }
+            }
+
+            Console.WriteLine(sum);
 
 
         }//end main

@@ -49,5 +49,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Multiples3And5\Multiples3And5.csproj">
+      <Project>{d449a22b-b7b9-4706-8901-ced7032abebd}</Project>
+      <Name>Multiples3And5</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
